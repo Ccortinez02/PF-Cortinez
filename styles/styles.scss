@@ -5,6 +5,16 @@
 .money{
     color: green;
 }
+.whiteword{
+    color: white;
+}
+iframe{
+    border-radius: 8px;
+}
+.contenedor{
+    height: 650px;
+    padding-top: 230px;
+}
 
 body {
     width: 100%;
@@ -30,7 +40,16 @@ body {
                 height: 60px;
                 width: 60px;
             }
-
+            .fa-solid{
+                color: rgb(109, 108, 108);
+                text-decoration: none;
+                font-size: 40px;
+                margin: 15px;
+                padding: 0;
+            }
+            .fa-solid:hover{
+                color: white;
+            }
         }
     }
 
@@ -114,16 +133,27 @@ body {
     // footer inicio
     footer {
         margin-top: 15px;
-        background-color: black;
+        background-image: linear-gradient(180deg, rgba(20, 19, 19, 0), black 25%);
         text-align: center;
         height: 250px;
         width: auto;
-        padding-top: 15px;
+        padding-top: 65px;
+        .contacto{
+            float: left;
+            margin-left: 15px;
+            h3{
+                font-size: 20px;
+            }
+        }
+        h2{
+            margin-top: 90px;
+        }
 
         .redes {
             .fa-brands {
+                margin-left: 15px;
                 color: white;
-                font-size: 40px;
+                font-size: 50px;
             }
         }
     }

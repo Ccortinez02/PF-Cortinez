@@ -7,6 +7,19 @@
   color: green;
 }
 
+.whiteword {
+  color: white;
+}
+
+iframe {
+  border-radius: 8px;
+}
+
+.contenedor {
+  height: 650px;
+  padding-top: 230px;
+}
+
 body {
   width: 100%;
   background-image: linear-gradient(360deg, rgb(20, 19, 19), black 75%);
@@ -28,6 +41,16 @@ body header .navbar #logo {
   margin-right: 0;
   height: 60px;
   width: 60px;
+}
+body header .navbar .fa-solid {
+  color: rgb(109, 108, 108);
+  text-decoration: none;
+  font-size: 40px;
+  margin: 15px;
+  padding: 0;
+}
+body header .navbar .fa-solid:hover {
+  color: white;
 }
 body .container {
   width: 100%;
@@ -87,13 +110,24 @@ body center .articulos .ITEM .ITEMM:hover {
 }
 body footer {
   margin-top: 15px;
-  background-color: black;
+  background-image: linear-gradient(180deg, rgba(20, 19, 19, 0), black 25%);
   text-align: center;
   height: 250px;
   width: auto;
-  padding-top: 15px;
+  padding-top: 65px;
+}
+body footer .contacto {
+  float: left;
+  margin-left: 15px;
+}
+body footer .contacto h3 {
+  font-size: 20px;
+}
+body footer h2 {
+  margin-top: 90px;
 }
 body footer .redes .fa-brands {
+  margin-left: 15px;
   color: white;
-  font-size: 40px;
+  font-size: 50px;
 }/*# sourceMappingURL=styles.css.map */
