@@ -2,16 +2,20 @@
     padding: 0;
     margin: 0;
 }
-.money{
+
+.money {
     color: green;
 }
-.whiteword{
+
+.whiteword {
     color: white;
 }
-iframe{
+
+iframe {
     border-radius: 8px;
 }
-.contenedor{
+
+.contenedor {
     height: 650px;
     padding-top: 230px;
 }
@@ -40,14 +44,16 @@ body {
                 height: 60px;
                 width: 60px;
             }
-            .fa-solid{
+
+            .fa-solid {
                 color: rgb(109, 108, 108);
                 text-decoration: none;
                 font-size: 40px;
                 margin: 15px;
                 padding: 0;
             }
-            .fa-solid:hover{
+
+            .fa-solid:hover {
                 color: white;
             }
         }
@@ -59,7 +65,7 @@ body {
 
     .container {
         width: 100%;
-        margin: 0 0 ;
+        margin: 0 0;
         padding: 0;
 
         .carousel {
@@ -76,9 +82,12 @@ body {
     // articulos inicio
     center {
         .articulos {
-            h2, p{
+
+            h2,
+            p {
                 color: white;
             }
+
             .ITEM {
                 height: 500px;
                 margin-bottom: 5px;
@@ -96,16 +105,19 @@ body {
                         text-align: center;
                         width: 246px;
                         color: white;
-                        .buybtn{
+
+                        .buybtn {
                             border: 1px solid rgb(44, 142, 233);
                             border-radius: 5px;
                             padding: 5px;
                             font-weight: 700;
                             text-decoration: none;
                             box-shadow: inset 0 0 0 1px rgb(44, 142, 233),
-                                0.3em 0.3em 1em rgba(52, 129, 230, 0.3);;
+                                0.3em 0.3em 1em rgba(52, 129, 230, 0.3);
+                            ;
                         }
-                        .buybtn:hover{
+
+                        .buybtn:hover {
                             border: 1px solid rgb(44, 142, 233);
                             border-radius: 5px;
                             background-color: rgb(44, 142, 233);
@@ -138,14 +150,17 @@ body {
         height: 300px;
         width: auto;
         padding-top: 65px;
-        .contacto{
+
+        .contacto {
             float: left;
             margin-left: 15px;
-            h3{
+
+            h3 {
                 font-size: 20px;
             }
         }
-        h2{
+
+        h2 {
             margin-top: 90px;
             width: 60%;
         }
@@ -157,7 +172,8 @@ body {
                 font-size: 50px;
             }
         }
-        .preguntas-frecuentes{
+
+        .preguntas-frecuentes {
             color: white;
             float: right;
             margin-right: 90px;
@@ -165,6 +181,46 @@ body {
         }
     }
 
-
     // footer final
+}
+
+//media mobile
+
+@media only screen and (min-width: 150px) and (max-width: 627px) {
+    .articulos {
+        height: 2400px;
+    }
+
+    .articulos.gorras {
+        height: 6600px;
+    }
+}
+
+@media only screen and (min-width: 628px) and (max-width: 935px) {
+    .articulos {
+        height: 1500px;
+    }
+
+    .articulos.gorras {
+        height: 3300px;
+    }
+
+}
+
+@media only screen and (min-width: 936px) and (max-width: 1244px) {
+    .articulos {
+        height: 1100px;
+    }
+
+    .articulos.gorras {
+        height: 3400px;
+    }
+
+}
+
+@media only screen and (min-width: 1245px) and (max-width: 1552px) {
+    .articulos {
+        height: 2000px;
+    }
+
 }

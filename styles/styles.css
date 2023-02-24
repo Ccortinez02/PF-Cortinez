@@ -63,7 +63,8 @@ body .container .carousel {
 body .container .carousel .carousel-inner {
   width: 1864px;
 }
-body center .articulos h2, body center .articulos p {
+body center .articulos h2,
+body center .articulos p {
   color: white;
 }
 body center .articulos .ITEM {
@@ -137,4 +138,34 @@ body footer .preguntas-frecuentes {
   float: right;
   margin-right: 90px;
   margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 627px) {
+  .articulos {
+    height: 2400px;
+  }
+  .articulos.gorras {
+    height: 6600px;
+  }
+}
+@media only screen and (min-width: 628px) and (max-width: 935px) {
+  .articulos {
+    height: 1500px;
+  }
+  .articulos.gorras {
+    height: 3300px;
+  }
+}
+@media only screen and (min-width: 936px) and (max-width: 1244px) {
+  .articulos {
+    height: 1100px;
+  }
+  .articulos.gorras {
+    height: 3400px;
+  }
+}
+@media only screen and (min-width: 1245px) and (max-width: 1552px) {
+  .articulos {
+    height: 2000px;
+  }
 }/*# sourceMappingURL=styles.css.map */
